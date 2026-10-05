@@ -1,0 +1,56 @@
+object Form1: TForm1
+  Left = 1038
+  Height = 240
+  Top = 322
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '3.6.0.0'
+  object Label1: TLabel
+    Left = 16
+    Height = 15
+    Top = 13
+    Width = 220
+    Caption = 'Ho pensato un numero da 1 a 100. Quale?'
+  end
+  object EditNumero: TEdit
+    Left = 16
+    Height = 23
+    Top = 48
+    Width = 80
+    TabOrder = 0
+    Text = 'EditNumero'
+  end
+  object ButtonProva: TButton
+    Left = 21
+    Height = 25
+    Top = 102
+    Width = 75
+    Caption = 'Prova'
+    TabOrder = 1
+    OnClick = ButtonProvaClick
+  end
+  object ButtonNuova: TButton
+    Left = 21
+    Height = 25
+    Top = 144
+    Width = 75
+    Caption = 'Nuova partita'
+    TabOrder = 2
+  end
+  object LabelRisposta: TLabel
+    Left = 24
+    Height = 15
+    Top = 196
+    Width = 75
+    Caption = 'LabelRisposta'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlue
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+end
